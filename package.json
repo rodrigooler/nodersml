@@ -1,0 +1,15 @@
+{
+  "name": "nodersml",
+  "version": "0.1.0",
+  "dependencies": {
+    "bs-express": "0.12.0"
+  },
+  "devDependencies": {
+    "bs-platform": "5.0.6"
+  },
+  "scripts": {
+    "build": "bsb -make-world",
+    "clean": "bsb -clean-world",
+    "start": "bsb -make-world -w"
+  }
+}
