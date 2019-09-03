@@ -5,11 +5,11 @@
     "bs-express": "0.12.0"
   },
   "devDependencies": {
-    "bs-platform": "5.0.6"
+    "bs-platform": "^5.0.6"
   },
   "scripts": {
-    "build": "bsb -make-world",
-    "clean": "bsb -clean-world",
-    "start": "bsb -make-world -w"
+    "build": "yarn bsb -make-world",
+    "clean": "yarn bsb -clean-world",
+    "start": "yarn bsb -make-world -w"
   }
 }

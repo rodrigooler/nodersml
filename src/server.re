@@ -9,7 +9,7 @@ let onListen = e =>
   | exception (Js.Exn.Error(e)) =>
     Js.log(e);
     Node.Process.exit(1);
-  | _ => Js.log @@ "Listening at http://0.0.0.0:3000"
+  | _ => Js.log @@ "Listening at http://0.0.0.0:4000"
   };
 
-let server = App.listen(app, ~port=3000, ~onListen, ());
+let server = App.listen(app, ~port=4000, ~onListen, ());
